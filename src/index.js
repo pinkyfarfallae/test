@@ -22,13 +22,13 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  useEffect(() => {
-    const hasVisitedBefore = localStorage.getItem("hasVisitedLuvlyFancy");
+  // useEffect(() => {
+  //   const hasVisitedBefore = localStorage.getItem("hasVisitedLuvlyFancy");
 
-    if (!hasVisitedBefore) {
-      window.location.replace("/");
-    }
-  }, []);
+  //   if (!hasVisitedBefore) {
+  //     window.location.replace("/");
+  //   }
+  // }, []);
 
   return <RouterProvider router={router} />;
 };
