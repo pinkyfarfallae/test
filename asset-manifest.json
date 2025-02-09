@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/luvlyfancy/static/css/main.baac3443.css",
+    "main.js": "/luvlyfancy/static/js/main.a32cdcdc.js",
+    "static/media/disclamer1.png": "/luvlyfancy/static/media/disclamer1.acdaa6dc3cfc5a81c84c.png",
+    "static/media/home1.png": "/luvlyfancy/static/media/home1.05791c7907affd45b07f.png",
+    "index.html": "/luvlyfancy/index.html",
+    "main.baac3443.css.map": "/luvlyfancy/static/css/main.baac3443.css.map",
+    "main.a32cdcdc.js.map": "/luvlyfancy/static/js/main.a32cdcdc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baac3443.css",
+    "static/js/main.a32cdcdc.js"
+  ]
+}
