@@ -1,41 +1,59 @@
-import React, { useEffect } from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Disclaimer from "./pages/Disclaimer";
-import Home from "./pages/Home";
-import About from "./pages/About";
+// import React, { useEffect } from "react";
+// import ReactDOM from "react-dom/client";
+// import "./index.css";
+// import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// import Disclaimer from "./pages/Disclaimer";
+// import Home from "./pages/Home";
+// import About from "./pages/About";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Disclaimer />,
-  },
-  {
-    path: "/home",
-    element: <Home />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Disclaimer />,
+//   },
+//   {
+//     path: "/home",
+//     element: <Home />,
+//   },
+//   {
+//     path: "/about",
+//     element: <About />,
+//   },
+// ]);
 
-const App = () => {
-  // useEffect(() => {
-  //   const hasVisitedBefore = localStorage.getItem("hasVisitedLuvlyFancy");
+// const App = () => {
+//   // useEffect(() => {
+//   //   const hasVisitedBefore = localStorage.getItem("hasVisitedLuvlyFancy");
 
-  //   if (!hasVisitedBefore) {
-  //     window.location.replace("/");
-  //   }
-  // }, []);
+//   //   if (!hasVisitedBefore) {
+//   //     window.location.replace("/");
+//   //   }
+//   // }, []);
 
-  return <RouterProvider router={router} />;
-};
+//   return <RouterProvider router={router} />;
+// };
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
