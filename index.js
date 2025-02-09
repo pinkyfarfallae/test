@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Disclaimer from "./pages/Disclaimer";
-import Home from "./pages/Home";
-import About from "./pages/About";
+import Disclaimer from "./src/pages/Disclaimer";
+import Home from "./src/pages/Home";
+import About from "./src/pages/About";
 
 const router = createBrowserRouter([
   {
